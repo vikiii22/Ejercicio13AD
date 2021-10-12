@@ -61,6 +61,7 @@ public class Ejercicio13 {
     }
 
     public static void cambioIdioma() throws FileNotFoundException {
+        System.out.println("El idioma actual es: " + properties.getProperty("language", "default"));
         System.out.print("Añada un idioma nuevo: ");
         Scanner sc = new Scanner(System.in);
         String cambio = sc.nextLine();

@@ -36,7 +36,6 @@ public class Ejercicio13 {
     }
 
     public static void nombreUsuario() throws FileNotFoundException {
-        //String nombreUsuario;
         try {
             properties.load(fr);
             nombreUsuario = properties.getProperty("userName", "Default");
@@ -50,7 +49,6 @@ public class Ejercicio13 {
     }
 
     public static void emailUsuario() throws FileNotFoundException {
-        //String emailUsuario;
         try {
             properties.load(fr);
             emailUsuario = properties.getProperty("userEmail", "Default");
